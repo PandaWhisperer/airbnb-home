@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+@import url('components/banner.css');
+@import url('components/features.css');
+@import url('components/footer.css');
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.padded {
+  padding: 100px 0;
+}
