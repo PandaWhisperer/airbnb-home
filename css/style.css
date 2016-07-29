@@ -2,6 +2,7 @@
 @import url('components/avatar.css');
 @import url('components/banner.css');
 @import url('components/card.css');
+@import url('components/lairs.css');
 @import url('components/features.css');
 @import url('components/footer.css');
 
@@ -19,5 +20,5 @@ body {
 }
 
 .wrapper-gray {
-  background-color: #F4F4F4;
+  background-color: #252525;
 }
