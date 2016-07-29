@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+@import url('../fonts/stylesheet.css');
+
 @import url('components/avatar.css');
 @import url('components/banner.css');
 @import url('components/card.css');
@@ -7,12 +9,32 @@
 @import url('components/footer.css');
 
 h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gypsy Curse', sans-serif;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: .1em;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 45px;
+  letter-spacing: .05em;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #111;
+  color: #999;
+}
+
+input.form-control {
+  background-color: #111;
 }
 
 .padded {
